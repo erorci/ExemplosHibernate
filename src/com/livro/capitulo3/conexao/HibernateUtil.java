@@ -2,6 +2,7 @@ package com.livro.capitulo3.conexao;
 
 
 import org.hibernate.SessionFactory;
+import org.hibernate.cfg.AnnotationConfiguration;
 import org.hibernate.cfg.Configuration;
 
 public class HibernateUtil {
@@ -10,7 +11,8 @@ public class HibernateUtil {
 
 	private static SessionFactory buildSessionFactory() {
 		try {
-			Configuration cfg = new Configuration();
+			//Configuration cfg = new Configuration();
+			AnnotationConfiguration cfg = new AnnotationConfiguration();
 			cfg.configure("hibernate.cfg.xml");
 			return cfg.buildSessionFactory();
 		} catch (Throwable e) {

@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.21-bin.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-api-1.6.6.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-simple-1.6.6.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
